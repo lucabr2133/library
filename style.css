@@ -1,0 +1,82 @@
+@font-face {
+    font-family: comic7;
+    src: url(Nexa-ExtraLight.ttf);
+}
+*{
+    font-family: comic7
+}
+body{
+    height: 100vh;
+}
+.modal{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+ 
+}
+input{
+    width: 300px;
+}
+.er{
+    background-color: rgb(255, 255, 255);
+    box-shadow:  0px 5px 30px rgb(255, 0, 0);
+    border-radius: 10px;
+
+    width: 300px;
+    height: 250px;
+    margin-top: 0;
+
+    display: flex;
+    align-items: center;
+ padding: 10PX;
+    font-size: 17px;
+    flex-direction: column;
+    transition: 1s;
+}
+.er:hover{
+    border: green solid 1px;
+    box-shadow:  0px 5px 30px rgb(0, 255, 149);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 1s;
+}
+b{
+    margin-top: 10px;
+}
+button{
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: rgb(188, 16, 16);
+    width: 200px;
+}
+.read{
+    background-color: green;
+}
+dialog{
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 30px rgba(48, 48, 48, 0.553);
+}
+dialog input{
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    background-color: rgb(255, 234, 0);
+
+}
+#read{
+    width: 20%;
+}
+.openbtn{
+    text-align: center;
+    margin: auto;
+  
+}
